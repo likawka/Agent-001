@@ -18,6 +18,7 @@
 		4A4C7A9D272AEFAF0051EADC /* Agent_001Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4C7A9C272AEFAF0051EADC /* Agent_001Tests.swift */; };
 		4A4C7AA7272AEFB00051EADC /* Agent_001UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4C7AA6272AEFB00051EADC /* Agent_001UITests.swift */; };
 		4A4C7AA9272AEFB00051EADC /* Agent_001UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4C7AA8272AEFB00051EADC /* Agent_001UITestsLaunchTests.swift */; };
+		4A4C7ACA272B248C0051EADC /* pewPoP.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A4C7AC9272B248C0051EADC /* pewPoP.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		4A4C7AA2272AEFB00051EADC /* Agent 001UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Agent 001UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A4C7AA6272AEFB00051EADC /* Agent_001UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agent_001UITests.swift; sourceTree = "<group>"; };
 		4A4C7AA8272AEFB00051EADC /* Agent_001UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agent_001UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4A4C7AC9272B248C0051EADC /* pewPoP.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pewPoP.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				4A4C7A82272AEFAA0051EADC /* AppDelegate.swift */,
+				4A4C7AC9272B248C0051EADC /* pewPoP.mp3 */,
 				4A4C7A84272AEFAA0051EADC /* GameScene.sks */,
 				4A4C7A86272AEFAA0051EADC /* Actions.sks */,
 				4A4C7A88272AEFAA0051EADC /* GameScene.swift */,
@@ -238,6 +241,7 @@
 				4A4C7A8E272AEFAA0051EADC /* Main.storyboard in Resources */,
 				4A4C7A85272AEFAA0051EADC /* GameScene.sks in Resources */,
 				4A4C7A90272AEFAF0051EADC /* Assets.xcassets in Resources */,
+				4A4C7ACA272B248C0051EADC /* pewPoP.mp3 in Resources */,
 				4A4C7A93272AEFAF0051EADC /* LaunchScreen.storyboard in Resources */,
 				4A4C7A87272AEFAA0051EADC /* Actions.sks in Resources */,
 			);
@@ -451,6 +455,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -479,6 +484,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
