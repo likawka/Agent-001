@@ -13,14 +13,16 @@ class GameScene: SKScene {
     let player = SKSpriteNode(imageNamed: "playerCat")
     let bulletSound = SKAction.playSoundFileNamed("pewPoP.mp3", waitForCompletion: true)
     
+    
+    // не працює? 1*
     var gameArea: CGRect
     
     override init(size: CGSize) {
-        let maxAspectRatio: CGFloat = 16.0/9.0
-        let playebleWigth = size.height / maxAspectRatio
-        let margin = (size.width - playebleWigth) / 2.0
+        let maxAspectRatio: CGFloat = (16.0/9.0)
+        let playebleWigth = (size.height / maxAspectRatio)
+        let margin = ((size.width - playebleWigth) / 2)
         
-        gameArea = CGRect(x: margin, y: 0.0, width: playebleWigth, height: size.height)
+        gameArea = CGRect(x: margin, y: 0, width:playebleWigth, height:size.height)
         
         super.init(size: size)
     }
@@ -65,6 +67,10 @@ class GameScene: SKScene {
         
     }
     
+    func spawnEnemy() {
+        
+    }
+    
     // стріляє, коли тикаєш
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         fireBullet()
@@ -79,13 +85,15 @@ class GameScene: SKScene {
             let amountDragged = pointOfTouch.x - previousPointOfTouch.x
             
             player.position.x += amountDragged
+           
             
-            if player.position.x > gameArea.maxX{
-                player.position.x = gameArea.maxX
+            // не працює? 1*
+            if player.position.x > gameArea.maxX - player.size.width*1.5 {
+                player.position.x = gameArea.maxX - player.size.width*1.5
                 
             }
-            if player.position.x > gameArea.minX{
-                player.position.x = gameArea.minX
+            if player.position.x < gameArea.minX + player.size.width*1.5{
+                player.position.x = gameArea.minX + player.size.width*1.5
                 
             }
                 
