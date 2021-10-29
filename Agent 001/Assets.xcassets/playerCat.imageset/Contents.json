@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "playerShip.png",
+      "filename" : "cat.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "cat@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "cat@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
